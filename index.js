@@ -1,5 +1,3 @@
-// write inquirer prompts, link shapes.js, output .svg file to examples
-
 const {Square, Triangle, Circle} = require('./lib/shapes');
 
 const {writeFile} = require('fs');
@@ -59,9 +57,6 @@ inquirer.prompt([
     
 })
 
-// writeFile('./examples/test.svg', new Square('svf', 'white', 'red').render(), err => 
-//     err ? console.error(err) : console.log('success')    
-// )
 
 
 
