@@ -53,7 +53,7 @@ inquirer.prompt([
             break;
     }
     
-    writeFile('./examples/test.svg', finalLogo, (err) => 
+    writeFile('./examples/logo.svg', finalLogo, (err) => 
         err ? console.error(err) : console.log('Generated logo.svg')
     );
     
